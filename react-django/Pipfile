@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "==1.4.4"
+pylint-django = "==2.0.11"
+
+[packages]
+django = "==2.2.6"
+djangorestframework = "==3.10.3"
+django-rest-knox = "==4.1.0"
+pillow = "==6.2.0"
+pytest = "==5.2.0"
+factory-boy = "==2.12.0"
+django-rest-passwordreset = "==1.0.0"
+psycopg2 = "==2.8.3"
+coverage = "*"
+
+[requires]
+python_version = "3.7"
